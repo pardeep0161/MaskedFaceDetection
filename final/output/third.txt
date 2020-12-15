@@ -1,0 +1,76 @@
+[INFO] training Model...
+Epoch 1/20
+735/735 [==============================] - ETA: 0s - loss: 0.1645 - acc: 0.9419
+Epoch 00001: val_loss improved from inf to 0.11914, saving model to model-001.hd5f
+WARNING:tensorflow:From c:\program files\python38\lib\site-packages\tensorflow\python\ops\resource_variable_ops.py:1813: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+INFO:tensorflow:Assets written to: model-001.hd5f\assets
+735/735 [==============================] - 1026s 1s/step - loss: 0.1645 - acc: 0.9419 - val_loss: 0.1191 - val_acc: 0.9565
+Epoch 2/20
+735/735 [==============================] - ETA: 0s - loss: 0.1428 - acc: 0.9488
+Epoch 00002: val_loss did not improve from 0.11914
+735/735 [==============================] - 1190s 2s/step - loss: 0.1428 - acc: 0.9488 - val_loss: 0.1224 - val_acc: 0.9532
+Epoch 3/20
+735/735 [==============================] - ETA: 2s - loss: 0.1526 - acc: 0.945 - ETA: 0s - loss: 0.1528 - acc: 0.9454
+Epoch 00003: val_loss improved from 0.11914 to 0.11407, saving model to model-003.hd5f
+INFO:tensorflow:Assets written to: model-003.hd5f\assets
+735/735 [==============================] - 2389s 3s/step - loss: 0.1528 - acc: 0.9454 - val_loss: 0.1141 - val_acc: 0.9537
+Epoch 4/20
+735/735 [==============================] - ETA: 0s - loss: 0.1467 - acc: 0.9460
+Epoch 00004: val_loss did not improve from 0.11407
+735/735 [==============================] - 1694s 2s/step - loss: 0.1467 - acc: 0.9460 - val_loss: 0.1141 - val_acc: 0.9565
+Epoch 5/20
+735/735 [==============================] - ETA: 0s - loss: 0.1429 - acc: 0.9480
+Epoch 00005: val_loss did not improve from 0.11407
+735/735 [==============================] - 286s 389ms/step - loss: 0.1429 - acc: 0.9480 - val_loss: 0.1163 - val_acc: 0.9575
+Epoch 6/20
+735/735 [==============================] - ETA: 0s - loss: 0.1316 - acc: 0.9545- ETA: 4s - loss: 0.1320 - acc: 0.95 - ETA: 3s - loss: 0.
+Epoch 00006: val_loss improved from 0.11407 to 0.10305, saving model to model-006.hd5f
+INFO:tensorflow:Assets written to: model-006.hd5f\assets
+735/735 [==============================] - 464s 631ms/step - loss: 0.1316 - acc: 0.9545 - val_loss: 0.1030 - val_acc: 0.9619
+Epoch 7/20
+735/735 [==============================] - ETA: 0s - loss: 0.1360 - acc: 0.9525
+Epoch 00007: val_loss improved from 0.10305 to 0.09516, saving model to model-007.hd5f
+INFO:tensorflow:Assets written to: model-007.hd5f\assets
+735/735 [==============================] - 1649s 2s/step - loss: 0.1360 - acc: 0.9525 - val_loss: 0.0952 - val_acc: 0.9630
+Epoch 8/20
+735/735 [==============================] - ETA: 0s - loss: 0.1296 - acc: 0.9566
+Epoch 00008: val_loss improved from 0.09516 to 0.09469, saving model to model-008.hd5f
+INFO:tensorflow:Assets written to: model-008.hd5f\assets
+735/735 [==============================] - 1892s 3s/step - loss: 0.1296 - acc: 0.9566 - val_loss: 0.0947 - val_acc: 0.9646
+Epoch 9/20
+735/735 [==============================] - ETA: 0s - loss: 0.1262 - acc: 0.9573
+Epoch 00009: val_loss did not improve from 0.09469
+735/735 [==============================] - 1556s 2s/step - loss: 0.1262 - acc: 0.9573 - val_loss: 0.0982 - val_acc: 0.9624
+Epoch 10/20
+735/735 [==============================] - ETA: 0s - loss: 0.1192 - acc: 0.9594
+Epoch 00010: val_loss improved from 0.09469 to 0.09295, saving model to model-010.hd5f
+INFO:tensorflow:Assets written to: model-010.hd5f\assets
+735/735 [==============================] - 1203s 2s/step - loss: 0.1192 - acc: 0.9594 - val_loss: 0.0929 - val_acc: 0.9646
+Epoch 11/20
+735/735 [==============================] - ETA: 0s - loss: 0.1257 - acc: 0.9548
+Epoch 00011: val_loss improved from 0.09295 to 0.08998, saving model to model-011.hd5f
+INFO:tensorflow:Assets written to: model-011.hd5f\assets
+735/735 [==============================] - 1144s 2s/step - loss: 0.1257 - acc: 0.9548 - val_loss: 0.0900 - val_acc: 0.9673
+Epoch 12/20
+735/735 [==============================] - ETA: 0s - loss: 0.1263 - acc: 0.9547
+Epoch 00012: val_loss did not improve from 0.08998
+735/735 [==============================] - 1530s 2s/step - loss: 0.1263 - acc: 0.9547 - val_loss: 0.0964 - val_acc: 0.9619
+Epoch 13/20
+735/735 [==============================] - ETA: 0s - loss: 0.1132 - acc: 0.9604
+Epoch 00013: val_loss did not improve from 0.08998
+735/735 [==============================] - 1179s 2s/step - loss: 0.1132 - acc: 0.9604 - val_loss: 0.0992 - val_acc: 0.9646
+Epoch 14/20
+735/735 [==============================] - ETA: 0s - loss: 0.1146 - acc: 0.9560
+Epoch 00014: val_loss did not improve from 0.08998
+735/735 [==============================] - 485s 660ms/step - loss: 0.1146 - acc: 0.9560 - val_loss: 0.0975 - val_acc: 0.9630
+Epoch 15/20
+735/735 [==============================] - ETA: 0s - loss: 0.1171 - acc: 0.9579
+Epoch 00015: val_loss did not improve from 0.08998
+735/735 [==============================] - 365s 496ms/step - loss: 0.1171 - acc: 0.9579 - val_loss: 0.0936 - val_acc: 0.9652
+Epoch 16/20
+735/735 [==============================] - ETA: 0s - loss: 0.1155 - acc: 0.9600
+Epoch 00016: val_loss did not improve from 0.08998
+735/735 [==============================] - 296s 403ms/step - loss: 0.1155 - acc: 0.9600 - val_loss: 0.1001 - val_acc: 0.9652
+Epoch 00016: early stopping
